@@ -1,4 +1,4 @@
 node_modules
 dist
-/tmp/*.csv
-/tmp/*.gz
+/tmp/*
+!/tmp/.gitkeep
