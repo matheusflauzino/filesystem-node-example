@@ -4,7 +4,7 @@ import { Transform, Writable } from 'node:stream';
 
 let count = 0;
 
-const readableStream = fs.createReadStream('./organizations-2000000.csv');
+const readableStream = fs.createReadStream('./organizations-1000000.csv');
 const transformStreamToObject = csv({ separator: ';' });
 const transformStreamToString = new Transform({
     objectMode: true,
