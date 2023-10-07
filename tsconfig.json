@@ -1,0 +1,15 @@
+{
+  // other settings..
+  "compilerOptions": {
+    // other compiler options...
+    "esModuleInterop": true,
+    "module": "CommonJS", // "module": "CommonJS" should work too
+    "moduleResolution": "Node",
+    "outDir": "dist",
+    "rootDir": "src", // Location of TypeScript files
+    "sourceMap": true // Generate sourcemaps
+
+  },
+  "include": ["/**/*.ts"],
+  "exclude": ["node_modules"]
+}
